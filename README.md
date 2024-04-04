@@ -1,4 +1,5 @@
 # Storybook HTML5 Addon
+<img src='https://github.com/vardumper/storybook-html5/assets/21208397/c8d73198-0135-4c48-a4ca-33ea1a744a02' style='float:left; margin-right:25px;' title='html5' width='48' height='48'>
 Adds all HTML5 elements to your Storybook
 
 ## Installation
@@ -35,7 +36,3 @@ This addons adds a Yarn command to your Storybook project. Executing it will pop
 ```
 yarn storybook-html5
 ```
-
-### Icons
-
-<img src='https://github.com/vardumper/storybook-html5/assets/21208397/c8d73198-0135-4c48-a4ca-33ea1a744a02' title='html5' width='48' height='48'>
