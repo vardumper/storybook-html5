@@ -1,7 +1,6 @@
-<img src='https://github.com/vardumper/storybook-html5/assets/21208397/c8d73198-0135-4c48-a4ca-33ea1a744a02' style='float:left; margin-right:35px;' title='html5' width='48' height='48'>
-
 # Storybook HTML5 Addon
-Adds all HTML5 elements to your Storybook
+<img src='https://github.com/vardumper/storybook-html5/assets/21208397/c8d73198-0135-4c48-a4ca-33ea1a744a02' style='float:left; margin-right:35px;' title='html5' width='96' height='96'>
+Adds all HTML5 elements to your Storybook. The category will be named HTML5, and each element is populated with a Default story, an empty SASS stylesheet and uses faker generated content. You can adjust these configs if necessary.
 
 ## Installation
 
