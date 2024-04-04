@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Adds all HTML5 elements to your Storybook",
   "keywords": [
-    "html", "html5", "generator", "stories", "storybook-addons"
+    "html",
+    "html5",
+    "generator",
+    "stories",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
@@ -99,8 +103,16 @@
   "storybook": {
     "displayName": "Storybook HTML5",
     "supportedFrameworks": [
-      "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
+      "react",
+      "vue",
+      "angular",
+      "web-components",
+      "ember",
+      "html",
+      "svelte",
+      "preact",
+      "react-native"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://github.com/vardumper/storybook-html5/assets/21208397/c8d73198-0135-4c48-a4ca-33ea1a744a02"
   }
 }
