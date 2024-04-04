@@ -1,6 +1,6 @@
 <!-- README START -->
 
-# Storybook Addon Kit ([demo](https://main--601ada52c3d4040021afdc30.chromatic.com))
+# Storybook HTML5
 
 Simplify the creation of Storybook addons
 
@@ -261,3 +261,7 @@ That will:
 - Bump the version
 - Push a release to GitHub and npm
 - Push a changelog to GitHub
+
+### Icons
+
+![html-5](https://github.com/vardumper/storybook-html5/assets/21208397/c8d73198-0135-4c48-a4ca-33ea1a744a02)
