@@ -18,8 +18,8 @@ export const Tool = memo(function MyAddonSelector() {
   useEffect(() => {
     api.setAddonShortcut(ADDON_ID, {
       label: "Create HTML5 Stories [H]",
-      defaultShortcut: ["H"],
-      actionName: "html5",
+      defaultShortcut: ["O"],
+      actionName: "outline",
       showInMenu: false,
       action: toggleMyTool,
     });

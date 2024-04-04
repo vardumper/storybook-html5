@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "Adds all HTML5 elements to your Storybook",
   "keywords": [
-    "html", "html5", "generator", "stories", "storybook-addons"
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-html5"
+    "url": "https://github.com/storybookjs/storybook-addon-kit"
   },
   "type": "module",
   "license": "MIT",
-  "author": "Erik Pöhler <info@erikpoehler.com>",
+  "author": "package-author",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -34,6 +34,7 @@
     "*.d.ts"
   ],
   "scripts": {
+    "postinstall": "node scripts/welcome.js",
     "build": "tsup",
     "build:watch": "npm run build -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -46,21 +47,21 @@
     "run-p": "npm run run-p"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.0.5",
-    "@storybook/addon-interactions": "^8.0.5",
-    "@storybook/addon-links": "^8.0.5",
-    "@storybook/blocks": "^8.0.5",
-    "@storybook/components": "^8.0.5",
-    "@storybook/core-events": "^8.0.5",
-    "@storybook/manager": "^8.0.5",
-    "@storybook/manager-api": "^8.0.5",
-    "@storybook/preview": "^8.0.5",
-    "@storybook/preview-api": "^8.0.5",
-    "@storybook/react": "^8.0.5",
-    "@storybook/react-vite": "^8.0.5",
-    "@storybook/test": "^8.0.5",
-    "@storybook/theming": "^8.0.5",
-    "@storybook/types": "^8.0.5",
+    "@storybook/addon-essentials": "8.0.0",
+    "@storybook/addon-interactions": "8.0.0",
+    "@storybook/addon-links": "8.0.0",
+    "@storybook/blocks": "8.0.0",
+    "@storybook/components": "8.0.0",
+    "@storybook/core-events": "8.0.0",
+    "@storybook/manager": "8.0.0",
+    "@storybook/manager-api": "8.0.0",
+    "@storybook/preview": "8.0.0",
+    "@storybook/preview-api": "8.0.0",
+    "@storybook/react": "8.0.0",
+    "@storybook/react-vite": "8.0.0",
+    "@storybook/test": "8.0.0",
+    "@storybook/theming": "8.0.0",
+    "@storybook/types": "8.0.0",
     "@types/node": "^18.15.0",
     "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.21",
@@ -73,7 +74,7 @@
     "prompts": "^2.4.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^8.0.5",
+    "storybook": "8.0.0",
     "tsup": "^8.0.2",
     "typescript": "^5.4.2",
     "vite": "^5.1.6",
@@ -97,9 +98,9 @@
     ]
   },
   "storybook": {
-    "displayName": "Storybook HTML5",
+    "displayName": "Addon Kit",
     "supportedFrameworks": [
-      "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
+      "supported-frameworks"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
